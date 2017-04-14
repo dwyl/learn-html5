@@ -207,6 +207,42 @@ The tags that you can see here format the text. They have closing tags!!! For ex
 ```` 
 Try out this example for yourself and experiment a little. 
 
+## Images
+Up until now, we've been using only text. How about we add some pictures? <br>
+In HTML pictures are added using:
+
+```` html
+<img src = "a_link_to_your_image"/> 
+````
+Note how the tag is closed - the tag is both an opening and a closing tag.
+TO DO: Talk about relative/absolute links
+
+But what should happen when our image doen't load? Or the device the user is using displays only text? We add an alt. It is a good practice to always have the alt attribute.
+
+```` html
+<img src = "a_link_to_your_image" alt="What your image is about"/> 
+````
+
+## Links
+Now let's learn about links. For exammple, you want when a user clicks on a text, to open your other site.
+
+```` html
+<a href = "link_address_here"> The text the user should click here </a>
+````
+
+But have you noticed how some links open in the same tab and others for example open in a new tab. This is done with **the target attribute**.
+The target attribute specifies where to open the linked document and it can have one of the following values:
+<blockquote>
+_blank - Opens the linked document in a new window or tab <br>
+_self - Opens the linked document in the same window/tab as it was clicked (this is default) <br>
+_parent - Opens the linked document in the parent frame <br>
+_top - Opens the linked document in the full body of the window  <br>
+framename - Opens the linked document in a named frame <br>
+</blockquote> 
+
+That's pretty much all about links. Not that hard,right? 
+
+
 ## Included Syntax
 <ul> 
 <li>  Paragraph 
@@ -215,7 +251,8 @@ Try out this example for yourself and experiment a little.
 <li> Comments
 <li> Simple text formatting tags
 <li> Headings
-
+<li> Images
+<li> Links
 # TO DO:
 <ul> 
 
@@ -231,8 +268,6 @@ Try out this example for yourself and experiment a little.
 # Syntax TO DO:
 <ul>
 
-<li> headings
-<li> links
 <li> div and span
 <li> classes
 <li> lists(ol,ul)
