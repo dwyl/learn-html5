@@ -8,6 +8,7 @@
 <li> Headings
 <li> Images
 <li> Links
+<li> Lists
 
 ## TO DO:
 <ul> 
@@ -24,7 +25,6 @@
 
 <li> div and span
 <li> classes
-<li> lists(ol,ul)
 <li> tables
 <li> buttons
 <li> responsive layouts, bootstrap
