@@ -133,7 +133,11 @@ Comments in any type of code (including HTML) are not shown in your browser. Usu
 
 ```` html
 <!-- Write your comments here -->
+
+<!-- This comment
+is also legit -->
 ````
+Note how the comments looks grayish. That's because the editor doesn't truly read them. If you create a blank html file (everything is in comments), the browser will open it but there won't be any content.
 
 ## So, you're probably wondering how all this knowledge goes together. Let's see
 
