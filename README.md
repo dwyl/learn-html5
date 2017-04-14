@@ -60,34 +60,41 @@ doesn't have a closing tag and neither does
  the tag for new line.  </blockquote>
 
 After that our html has 
+
 ```` html 
 <html> tag
 ````
+
 The html tag has a closing tag:
 
 ```` html 
 </html>
 ````
+
 In between the html tags, our code looks just like a human - it starts with
+
 ```` html 
 <head> some code here </head>
 ````
+
 and after the head we have
 
 ```` html 
 <body> some code here </body>
 ````
- Between the head tags we place the head elements.
-<blockquote>
-The following elements can go inside the head element:
 
-title = what is shown at the tab in your browser
-style = here we put rules for styling (in another language called CSS)
-link = links
-meta =meta information like encoding
-script = actions for you page
-</blockquote>
-Most of the things you will want to add(like sentences, pictures, etc) will be added in the body tag. Now leté explore more about them.
+ Between the head tags we place the head elements.
+
+### The following elements go inside the head element:
+
+title = what is shown at the tab in your browser <br>
+style = here we put rules for styling (in another language called CSS) <br>
+link = links <br>
+meta =meta information like encoding <br>
+script = actions for you page <br>
+
+Most of the things you will want to add (like sentences, pictures, etc) 
+will be added in the body tag. Now lets learn more about them.
 
 ## Paragraphs
 The easiest thing you can do in HTML is write a sentence. To do this you need to know one of the very basic and easy to use tags - the
@@ -119,8 +126,11 @@ You can also write
 which draws a horizontal line across your screen. It also doesn't have a closing tag.
 
 ## HTML Comments
-Comments in any type of code (including HTML) are not shown in your browser. 
-TO BE DONE
+Comments in any type of code (including HTML) are not shown in your browser. Usually they are used for writing some info about the code or they contain code itself (that code usually doesn't work). They are also great for Debugging (don't worry, you'll learn later what debugging is). Comments are written this way:
+
+```` html
+<!-- Write your comments here -->
+````
 
 ## So, you're probably wondering how all this knowledge goes together. Let's see
 
@@ -143,6 +153,7 @@ If you want,test this code. Also, don't forget to name your file with an .html e
 <li>  Paragraph 
 <li>  New line
 <li> Horizontal line
+<li> Comments
 
 # TO DO:
 <ul> 
