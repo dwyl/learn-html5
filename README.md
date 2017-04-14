@@ -11,8 +11,8 @@ everything you see on the web everyday - every website uses HTML
 HTML is just the structure of the page - the texts, images, 
 buttons **but** it doesn't include the beautifiers for your page(CSS, BootStrap).
 
-## So HTML ain't pretty?
-Plain HTML ain't but it can be made awesome looking (CSS, Bootstrap) and clickable (JS).
+## So HTML isn't pretty?
+Plain HTML isn't but it can be made awesome looking (CSS, Bootstrap, etc) and clickable (JavaScript).
 
 ## Do I need to install anything to write html?
 Theoretycally speaking - no,you don't. You can write on anything(even Word)
@@ -20,6 +20,9 @@ and save it in a .html extension. But truth is, if you want to make your life ea
 you should install some aditional software - Notepad, Visual Studio Code, gedit/vim/nano, Atom, Sublime, etc.
 There are billions of text editors that will help you out but the one you need is probably Notepad++.
 > https://notepad-plus-plus.org
+
+## What resources do I need?
+Most of the knowledge you'll need, will be in this guide. But in the IT world things are changing pretty fast. So make sure you educate yourself on new innovations, best practices and technologies. Make sure to check out our resources.md file where you will find some interesting guides, books and even more additional information.
 
 ## The basics 
 <ul> 
@@ -86,13 +89,13 @@ and after the head we have
  Between the head tags we place the head elements.
 
 ### The following elements go inside the head element:
-
+<blockquote>
 title = what is shown at the tab in your browser <br>
 style = here we put rules for styling (in another language called CSS) <br>
 link = links <br>
 meta =meta information like encoding <br>
 script = actions for you page <br>
-
+</blockquote>
 Most of the things you will want to add (like sentences, pictures, etc) 
 will be added in the body tag. Now lets learn more about them.
 
@@ -147,8 +150,9 @@ Comments in any type of code (including HTML) are not shown in your browser. Usu
 
 </html>
 ````
-If you want,test this code. Also, don't forget to name your file with an .html extension.
-## Syntax
+If you want, test this code. Also, don't forget to name your file with an .html extension.
+
+## Included Syntax
 <ul> 
 <li>  Paragraph 
 <li>  New line
@@ -166,9 +170,8 @@ If you want,test this code. Also, don't forget to name your file with an .html e
 <li> Bootstrap
 </ul>
 
-# Syntax_ TO DO:
+# Syntax TO DO:
 <ul>
-<li> paragraphs
 <li> headings
 <li> links
 <li> div and span
