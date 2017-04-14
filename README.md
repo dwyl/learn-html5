@@ -118,8 +118,26 @@ You can also write
 
 which draws a horizontal line across your screen. It also doesn't have a closing tag.
 
+## HTML Comments
+Comments in any type of code (including HTML) are not shown in your browser. 
+TO BE DONE
 
+## So, you're probably wondering how all this knowledge goes together. Let's see
 
+```` html 
+<!DOCTYPE html>
+<html>
+        <head>
+                <title> My first webpage! </title>
+        </head>
+        
+        <body>
+                <p> Hello world! <br> This will be shown in a new line </p>
+        </body>
+
+</html>
+````
+If you want,test this code. Also, don't forget to name your file with an .html extension.
 ## Syntax
 <ul> 
 <li>  Paragraph 
