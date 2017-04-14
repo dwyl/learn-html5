@@ -89,11 +89,34 @@ script = actions for you page
 </blockquote>
 Most of the things you will want to add(like sentences, pictures, etc) will be added in the body tag. Now leté explore more about them.
 
-The easiest thing you can do in HTML is write a sentence. To do this you need to know one of the very basic and easy to use tags - the 
-__<__**p>** . To write a sentence(or paragraph, word, number, etc), we simply put what we want to be shown on the screen between an __<__**p>** text goes here __<__**/p>**. 
-<blockquote> The paragraph tag should be used in the body. </blockquote>
+## Paragraphs
+The easiest thing you can do in HTML is write a sentence. To do this you need to know one of the very basic and easy to use tags - the
 
-<b> Extra knowledge: </b> HTML doesn't add new lines when you press Enter in your editor. To add a new line, we use the __<__**br>**. tag. N.B! It has only an opening tag!! Also you can write __<__**hr>**,which draws a horizontal line across your screen. It also doesn't have a closing tag.
+```` html 
+<p>
+````
+
+To write a sentence(or paragraph, word, number, etc), we simply put what we want to be shown on the screen between an opening and a closing tag.
+
+```` html 
+<p> Your text goes here </p>
+````
+ The paragraph tag should be used in the body. 
+
+<b> Extra knowledge: </b> HTML doesn't add new lines when you press Enter in your editor. To add a new line, we use the 
+
+```` html 
+<br>
+````
+
+tag. N.B!The br tag has only an opening tag!! 
+You can also write
+
+```` html 
+<hr>
+````
+
+which draws a horizontal line across your screen. It also doesn't have a closing tag.
 
 
 
