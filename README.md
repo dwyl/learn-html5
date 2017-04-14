@@ -30,7 +30,7 @@ There are billions of text editors that will help you out but the one you need i
 
 So we write html in a text editor. Than how does our PC know it's a HTML file and not a poem or essaywe've written? Easy! HTML has it's own syntax( it's close to the English language, don't worry) and it's own extension - **_.html_**
 
-## HTML syntax
+## HTML head and body
 
 Every html starts with the tag **<**__!DOCTYPE html>__ . This way the browser recognizes that this is a valid .html file.
 You're probably wondering what a tag is.
@@ -46,8 +46,20 @@ link = links
 meta =meta information like encoding
 script = actions for you page
 </blockquote>
-Most of the things you will want to add(like sentences, pictures, etc)
+Most of the things you will want to add(like sentences, pictures, etc) will be added in the body tag. Now leté explore more about them.
 
+The easiest thing you can do in HTML is write a sentence. To do this you need to know one of the very basic and easy to use tags - the 
+__<__**p>** . To write a sentence(or paragraph, word, number, etc), we simply put what we want to be shown on the screen between an __<__**p>** text goes here __<__**/p>**. 
+<blockquote> The paragraph tag should be used in the body. </blockquote>
+
+<b> Extra knowledge: </b> HTML doesn't add new lines when you press Enter in your editor. To add a new line, we use the __<__**br>**. tag. N.B! It has only an opening tag!!
+
+
+
+## Syntax
+<ul> 
+<li>  Paragraph 
+<li>  New line
 
 # TO DO:
 <ul> 
