@@ -151,6 +151,41 @@ Comments in any type of code (including HTML) are not shown in your browser. Usu
 </html>
 ````
 If you want, test this code. Also, don't forget to name your file with an .html extension.
+When you're ready move on with this guide.
+
+## Headings
+
+## Simple text formatting tags
+```` html
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+````
+
+The tags that you can see here format the text.They have closing tags!!! For example
+
+```` html 
+<!DOCTYPE html>
+<html>
+        <head>
+                <title> My first webpage! </title>
+        </head>
+        
+        <body>
+                <p> Hello world! <br> <b>This will be bold and on new line </b>
+                <br> <i> This will be italic and on new line </i>
+                </p>
+        </body>
+
+</html>
+```` 
 
 ## Included Syntax
 <ul> 
@@ -158,6 +193,7 @@ If you want, test this code. Also, don't forget to name your file with an .html 
 <li>  New line
 <li> Horizontal line
 <li> Comments
+<li> Simple text formatting tags
 
 # TO DO:
 <ul> 
