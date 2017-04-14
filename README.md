@@ -161,6 +161,7 @@ If you want, test this code. Also, don't forget to name your file with an .html 
 
 # TO DO:
 <ul> 
+
 <li> Create full syntax for HTML5
 <li> Creat a resources .md file
 <li> Add a cheatsheet
@@ -172,6 +173,7 @@ If you want, test this code. Also, don't forget to name your file with an .html 
 
 # Syntax TO DO:
 <ul>
+
 <li> headings
 <li> links
 <li> div and span
