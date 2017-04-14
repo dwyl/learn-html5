@@ -292,3 +292,28 @@ We can change this with the type property (that's CSS and we'll talk soon about 
 ````
 By default, the list item here are shown with circles in front. If we want to change that,we use the CSS list-style-type,which we'll talk about later.
         
+## Tables
+To represent data, we sometimes use tables (Google Spreadsheets, Excel, etc).
+HTML has tables too and they are quite easy to use.
+    
+```` html
+<table>
+  <tr>
+    <th>table row 1 first square</th>
+    <th>table row 1 second square</th> 
+  </tr>
+  <tr>
+    <td>table row 2 first square</td>
+    <td>table row 2 second square</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>table row 2 first square</td>
+    <td>table row 2 second square</td> 
+  </tr>
+</table>
+````
+
+An HTML table is defined with the table tag.
+Each table row is defined with the tr tag. A table header is defined with the <th> tag. 
+By default, table headings are bold and centered. A table data/cell is defined with the td tag.
