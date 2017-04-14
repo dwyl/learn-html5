@@ -9,7 +9,7 @@
 <li> Images
 <li> Links
 <li> Lists
-
+<li> tables
 ## TO DO:
 <ul> 
 
@@ -25,7 +25,6 @@
 
 <li> div and span
 <li> classes
-<li> tables
 <li> buttons
 <li> responsive layouts, bootstrap
 <li> forms
