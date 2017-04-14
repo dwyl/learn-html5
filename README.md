@@ -1,22 +1,24 @@
 # Learn HTML5
-Learn how to use HTML5 (from scratch) to build websites/web applications!
+Learn how to use HTML5 (from scratch) to build websites/web applications! No previous knowledge needed.
 
 ## Some history
-In 1989,Tim Berners-Lee(working at CERN then) wrote a memo proposing an Internet-based hypertext systemwhere researchers can share documents. The browser and server software for this was created in the late 90's.
+In 1989, Tim Berners-Lee(working at CERN then), wrote a memo proposing an Internet-based hypertext system where researchers can share documents. The browser and server software for this was created in the late 90's and later became known as the World Wide Web. The WWW was functioning using a langiage that Berners-Lee wrote - HTML.
 
 ## What is HTML?
 HTML (short for **H**yper**T**ext **M**arkup **L**anguage) is basically 
 everything you see on the web everyday - every website uses HTML
 (including GitHub, Google, Facebook, your aunt's blog, etc).
 HTML is just the structure of the page - the texts, images, 
-buttons **but** it doesn't include the beautifiers for your page(CSS, BootStrap).
+buttons **but** it doesn't include the beautifiers for your page(CSS, BootStrap)
+although they can be inserted into the html file itself.
 
 ## So HTML isn't pretty?
-Plain HTML isn't but it can be made awesome looking (CSS, Bootstrap, etc) and clickable (JavaScript).
+Plain HTML isn't but it can be made awesome looking using styles and libraries(CSS, Bootstrap, etc) and clickable (JavaScript).
 
 ## Do I need to install anything to write html?
-Theoretycally speaking - no,you don't. You can write on anything(even Word)
-and save it in a .html extension. But truth is, if you want to make your life easier,
+Theoretycally speaking - no, you don't,because you probably already have everything needed.
+You can write on anything(even Word) and save it in a .html extension.
+But truth is, if you want to make your life easier,
 you should install some aditional software - Notepad, Visual Studio Code, gedit/vim/nano, Atom, Sublime, etc.
 There are billions of text editors that will help you out but the one you need is probably Notepad++.
 > https://notepad-plus-plus.org
@@ -31,22 +33,27 @@ Most of the knowledge you'll need, will be in this guide. But in the IT world th
     <li> HTML doesn't include styling of the page(that's what CSS is for) </li>
 </ul>
 
-So we write html in a text editor. Than how does our PC know it's a HTML file and not a poem or essaywe've written? Easy! HTML has it's own syntax( it's close to the English language, don't worry) and it's own extension - **_.html_**
+Okay, so we write html in a text editor. Then how does our PC know it's a HTML file and not a poem or essay we've written? 
+Easy! HTML has it's own syntax( it's very close to the English language, don't worry) and it's own extension - **_.html_**.
 
 ## HTML head and body
 
-Every html starts with the tag **<**__!DOCTYPE html>__ . This way the browser recognizes that this is a valid .html file.
+Every html starts with the tag 
+```` html
+<!DOCTYPE html>
+```` 
+This way the browser recognizes that this is a valid .html file.
 You're probably wondering what a tag is.
 <blockquote>A tag is 
 
 ```` html
-<something>
+<something here inside>
 ````
 
-it consists of an opening tag and usually (not every tag has one) a closing tag 
+it consists of an opening tag and usually (not every tag has one) a closing tag:
 
 ```` html 
-</something>
+</something that was in the opening tag>
 ````
 
 Eveything that's between the opening and the closing tag is affected by the action this tag does. The 
@@ -60,7 +67,7 @@ doesn't have a closing tag and neither does
 ```` html 
 <br>
 ````
- the tag for new line.  </blockquote>
+Br is the tag for new line.  </blockquote>
 
 After that our html has 
 
@@ -96,40 +103,50 @@ link = links <br>
 meta =meta information like encoding <br>
 script = actions for you page <br>
 </blockquote>
+
 Most of the things you will want to add (like sentences, pictures, etc) 
 will be added in the body tag. Now lets learn more about them.
 
 ## Paragraphs
-The easiest thing you can do in HTML is write a sentence. To do this you need to know one of the very basic and easy to use tags - the
+The easiest thing you can do in HTML is write a sentence. 
+To do this you need to know one of the very basic and easy to use tags - the
 
 ```` html 
 <p>
 ````
 
-To write a sentence(or paragraph, word, number, etc), we simply put what we want to be shown on the screen between an opening and a closing tag.
+To write a sentence(or paragraph, word, number, etc), we simply put what we want to be shown
+on the screen between an opening and a closing tag.
 
 ```` html 
 <p> Your text goes here </p>
 ````
  The paragraph tag should be used in the body. 
 
-<b> Extra knowledge: </b> HTML doesn't add new lines when you press Enter in your editor. To add a new line, we use the 
+<b> Extra knowledge: </b> HTML doesn't add new lines
+when you press Enter in your editor. To add a new line, we use the 
 
 ```` html 
 <br>
 ````
 
-tag. N.B!The br tag has only an opening tag!! 
+tag. **N.B!**The br tag has only an opening tag!! 
 You can also write
 
 ```` html 
 <hr>
 ````
 
-which draws a horizontal line across your screen. It also doesn't have a closing tag.
+which draws a horizontal line across your screen. It also doesn't have a closing tag 
+and is usually used to visually show the user that
+this are 2 different sections of the page.
 
 ## HTML Comments
-Comments in any type of code (including HTML) are not shown in your browser. Usually they are used for writing some info about the code or they contain code itself (that code usually doesn't work). They are also great for Debugging (don't worry, you'll learn later what debugging is). Comments are written this way:
+Comments in any type of code (including HTML) are not shown in your browser. 
+Usually they are used for writing some info about the code or 
+they contain some code itself (that code usually doesn't work). 
+They are also great for Debugging (don't worry, you'll learn later what debugging is). 
+Comments are written this way:
 
 ```` html
 <!-- Write your comments here -->
@@ -137,7 +154,8 @@ Comments in any type of code (including HTML) are not shown in your browser. Usu
 <!-- This comment
 is also legit -->
 ````
-Note how the comments looks grayish. That's because the editor doesn't truly read them. If you create a blank html file (everything is in comments), the browser will open it but there won't be any content.
+Note how the comments looks grayish. That's because the editor doesn't truly read them.
+If you create a blank html file (everything is in comments), the browser will open it but there won't be any content.
 
 ## So, you're probably wondering how all this knowledge goes together. Let's see
 
@@ -158,6 +176,7 @@ If you want, test this code. Also, don't forget to name your file with an .html 
 When you're ready move on with this guide.
 
 ## Quotes
+
 ```` html
 <q> Use q for short quotes </q>
 <blockquote> 
@@ -172,10 +191,13 @@ When you're ready move on with this guide.
                 quote.
 </blockquote>
 ```` 
-That's pretty straight-forward.
+
+That's pretty straight-forward.No need for explaining.
 
 ## Headings
-Okay, so we have paragraphs but text isn't only sentences with same formatting. How can we change it? 
+Okay, so we have paragraphs but the text we usually write and read
+isn't only sentences with the same formatting.We have some sentences that are bigger and darker, some that
+are really small, etc. How can we do this in HTML? 
 There is one easy way - CSS formatting, but for now we'll be using simple html tags and we'll learn about headings.
 
 ```` html
@@ -186,6 +208,7 @@ There is one easy way - CSS formatting, but for now we'll be using simple html t
 <h5>This is heading 5</h5>
 <h6>This is heading 6</h6>
 ````
+
 Headings are just like paragraphs **BUT** they have different font sizes. h1 is the biggest heading and h6 is the smallest.
 Search engines use the headings to index the structure and content of your web pages and users skim your pages by its headings. Also, by using headings the User Experience is better than if we only use paragraphs.
 
@@ -222,7 +245,7 @@ The tags that you can see here format the text. They have closing tags!!! For ex
 
 </html>
 ```` 
-Try out this example for yourself and experiment a little. 
+Try out this example for yourself and experiment a little. And remember - everything between the opening and the closing tag is affected so don't forget to close your tags.
 
 ## Images
 Up until now, we've been using only text. How about we add some pictures? <br>
@@ -234,7 +257,9 @@ In HTML pictures are added using:
 Note how the tag is closed - the tag is both an opening and a closing tag.
 TO DO: Talk about relative/absolute links
 
-But what should happen when our image doen't load? Or the device the user is using displays only text? We add an alt. It is a good practice to always have the alt attribute.
+But what should happen when our image doen't load? 
+Or the device the user is using displays only text? 
+We add an alt attribute. It is a good practice to always have the alt attribute.
 
 ```` html
 <img src = "a_link_to_your_image" alt="What your image is about"/> 
@@ -260,10 +285,11 @@ framename - Opens the linked document in a named frame <br>
 That's pretty much all about links. Not that hard, right? 
 
 ## Lists
+Lets's say you want to go shopping. Do you write long paragraphs about what you want to buy?
+Probably not. You use lists. And HTML has lists too.
+In HTML, just like in the real world, our lists can be either ordered or unordered.
 
-In HTML, just like in the real world, our lists can be ordered or unordered.
-
-### ordered list
+### ordered lists
 
 ```` html
 <body>
@@ -278,7 +304,7 @@ In HTML, just like in the real world, our lists can be ordered or unordered.
 By default this list is shown with arabic numbers. 
 We can change this with the type property (that's CSS and we'll talk soon about CSS).
 
-### unordered list
+### unordered lists
 
 ```` html
 <body>
@@ -290,7 +316,8 @@ We can change this with the type property (that's CSS and we'll talk soon about 
 </body>
 
 ````
-By default, the list item here are shown with circles in front. If we want to change that,we use the CSS list-style-type,which we'll talk about later.
+By default, the list item here are shown with circles in front. If we want to change that, 
+we use the CSS **list-style-type**, which we'll talk about later.
         
 ## Tables
 To represent data, we sometimes use tables (Google Spreadsheets, Excel, etc).
