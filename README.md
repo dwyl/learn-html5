@@ -259,3 +259,36 @@ framename - Opens the linked document in a named frame <br>
 
 That's pretty much all about links. Not that hard, right? 
 
+## Lists
+
+In HTML, just like in the real world, our lists can be ordered or unordered.
+
+### ordered list
+
+```` html
+<body>
+        <ol>   <!-- Everything between the opening and the closing ol list is taken as a list item -->
+            <li> list item 1 </li>  <!-- what is between the opening and closing li is considered a SINGLE list item -->
+            <li> list item 2 </li>
+            <li> list item N </li>
+        </ol>
+</body>
+
+````
+By default this list is shown with arabic numbers. 
+We can change this with the type property (that's CSS and we'll talk soon about CSS).
+
+### unordered list
+
+```` html
+<body>
+        <ul>  
+            <li> list item 1 </li>  
+            <li> list item 2 </li>
+            <li> list item N </li>
+        </ul>
+</body>
+
+````
+By default, the list item here are shown with circles in front. If we want to change that,we use the CSS list-style-type,which we'll talk about later.
+        
