@@ -34,9 +34,50 @@ So we write html in a text editor. Than how does our PC know it's a HTML file an
 
 Every html starts with the tag **<**__!DOCTYPE html>__ . This way the browser recognizes that this is a valid .html file.
 You're probably wondering what a tag is.
-<blockquote>A tag is __< something>__ it consists of an opening tag __< something>__  and usually(not every tag has one) a closing tag __< /something>__  Eveything that's between the opening and the closing tag is affected by the action this tag does. The **<**__!DOCTYPE html>__ doesn't have a closing tag and neither does **<**__br>__ - the tag for new line.  </blockquote>
+<blockquote>A tag is 
 
-After that our html has **<**__html>__ tag.The **<**__html>__tag has a closing tag - **<**__/html>__  In between the html tags, our code looks just like a human - it starts with __<__**head> some code here <**/**head>** and after the head we have **<**__body>__ some code here __<__**/body>**. Between the **<**__head>__ tags we place the head elements.
+```` html
+<something>
+````
+
+it consists of an opening tag and usually (not every tag has one) a closing tag 
+
+```` html 
+</something>
+````
+
+Eveything that's between the opening and the closing tag is affected by the action this tag does. The 
+
+```` html 
+<!DOCTYPE html>
+````
+
+doesn't have a closing tag and neither does 
+
+```` html 
+<br>
+````
+ the tag for new line.  </blockquote>
+
+After that our html has 
+```` html 
+<html> tag
+````
+The html tag has a closing tag:
+
+```` html 
+</html>
+````
+In between the html tags, our code looks just like a human - it starts with
+```` html 
+<head> some code here </head>
+````
+and after the head we have
+
+```` html 
+<body> some code here </body>
+````
+ Between the head tags we place the head elements.
 <blockquote>
 The following elements can go inside the head element:
 
