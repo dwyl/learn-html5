@@ -52,7 +52,7 @@ The easiest thing you can do in HTML is write a sentence. To do this you need to
 __<__**p>** . To write a sentence(or paragraph, word, number, etc), we simply put what we want to be shown on the screen between an __<__**p>** text goes here __<__**/p>**. 
 <blockquote> The paragraph tag should be used in the body. </blockquote>
 
-<b> Extra knowledge: </b> HTML doesn't add new lines when you press Enter in your editor. To add a new line, we use the __<__**br>**. tag. N.B! It has only an opening tag!!
+<b> Extra knowledge: </b> HTML doesn't add new lines when you press Enter in your editor. To add a new line, we use the __<__**br>**. tag. N.B! It has only an opening tag!! Also you can write __<__**hr>**,which draws a horizontal line across your screen. It also doesn't have a closing tag.
 
 
 
@@ -60,6 +60,7 @@ __<__**p>** . To write a sentence(or paragraph, word, number, etc), we simply pu
 <ul> 
 <li>  Paragraph 
 <li>  New line
+<li> Horizontal line
 
 # TO DO:
 <ul> 
