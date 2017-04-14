@@ -157,6 +157,23 @@ Note how the comments looks grayish. That's because the editor doesn't truly rea
 If you want, test this code. Also, don't forget to name your file with an .html extension.
 When you're ready move on with this guide.
 
+## Quotes
+```` html
+<q> Use q for short quotes </q>
+<blockquote> 
+            The blockquote tag should be used when we want to talk 
+            about some long quote that is quoted from another source. 
+</blockquote>
+
+<blockquote cite="link to where you took the quote from">
+                your very long
+                and interesting
+                probably 
+                quote.
+</blockquote>
+```` 
+That's pretty straight-forward.
+
 ## Headings
 Okay, so we have paragraphs but text isn't only sentences with same formatting. How can we change it? 
 There is one easy way - CSS formatting, but for now we'll be using simple html tags and we'll learn about headings.
@@ -240,5 +257,5 @@ _top - Opens the linked document in the full body of the window  <br>
 framename - Opens the linked document in a named frame <br>
 </blockquote> 
 
-That's pretty much all about links. Not that hard,right? 
+That's pretty much all about links. Not that hard, right? 
 
