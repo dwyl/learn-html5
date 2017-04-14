@@ -154,6 +154,19 @@ If you want, test this code. Also, don't forget to name your file with an .html 
 When you're ready move on with this guide.
 
 ## Headings
+Okay, so we have paragraphs but text isn't only sentences with same formatting. How can we change it? 
+There is one easy way - CSS formatting, but for now we'll be using simple html tags and we'll learn about headings.
+
+```` html
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+````
+Headings are just like paragraphs **BUT** they have different font sizes. h1 is the biggest heading and h6 is the smallest.
+Search engines use the headings to index the structure and content of your web pages and users skim your pages by its headings. Also, by using headings the User Experience is better than if we only use paragraphs.
 
 ## Simple text formatting tags
 ```` html
@@ -169,7 +182,7 @@ When you're ready move on with this guide.
 <sup> - Superscript text
 ````
 
-The tags that you can see here format the text.They have closing tags!!! For example
+The tags that you can see here format the text. They have closing tags!!! For example
 
 ```` html 
 <!DOCTYPE html>
@@ -179,13 +192,16 @@ The tags that you can see here format the text.They have closing tags!!! For exa
         </head>
         
         <body>
+                <h1> This will be the biggest header </h1>
                 <p> Hello world! <br> <b>This will be bold and on new line </b>
                 <br> <i> This will be italic and on new line </i>
                 </p>
+                <h6> This will be a very small heading </h6>
         </body>
 
 </html>
 ```` 
+Try out this example for yourself and experiment a little. 
 
 ## Included Syntax
 <ul> 
@@ -194,6 +210,7 @@ The tags that you can see here format the text.They have closing tags!!! For exa
 <li> Horizontal line
 <li> Comments
 <li> Simple text formatting tags
+<li> Headings
 
 # TO DO:
 <ul> 
