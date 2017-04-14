@@ -13,8 +13,6 @@
 <ul> 
 
 <li> Create full syntax for HTML5
-<li> Creat a resources .md file
-<li> Add a cheatsheet
 <li> Add few sections about styling and scripts
 <li> Talk about WWW, Domains, How the internet works, etc 
 <li> Differences between HTML and HTML5
@@ -29,10 +27,6 @@
 <li> lists(ol,ul)
 <li> tables
 <li> buttons
-<li> bold, italic, underlined
-<li> blockquotes
-<li> comments
-<li>images
 <li> responsive layouts, bootstrap
 <li> forms
 <li> POST and GET
