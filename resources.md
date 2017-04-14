@@ -8,6 +8,9 @@
 <a href = ""> </a> <br>
 
 # Styling 
+<a href = "https://www.w3schools.com/css/"> W3School CSS tutorials </a> <br>
+<a href = "https://www.w3schools.com/bootstrap/default.asp"> W3School bootstrap tutorials</a> <br>
+<a href = "https://getbootstrap.com"> Bootstrap website </a> <br>
 
 # Books
 
