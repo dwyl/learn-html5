@@ -16,12 +16,13 @@ although they can be inserted into the html file itself.
 Plain HTML isn't but it can be made awesome looking using styles and libraries(CSS, Bootstrap, etc) and clickable (JavaScript).
 
 ## Do I need to install anything to write html?
-Theoretycally speaking - no, you don't,because you probably already have everything needed.
+Theoretically speaking - no, you don't, because you probably already have everything needed.
 You can write on anything(even Word) and save it in a .html extension.
 But truth is, if you want to make your life easier,
 you should install some aditional software - Notepad, Visual Studio Code, gedit/vim/nano, Atom, Sublime, etc.
 There are billions of text editors that will help you out but the one you need is probably Notepad++.
-> https://notepad-plus-plus.org
+> https://notepad-plus-plus.org <br>
+> https://github.com/dwyl/dev-setup
 
 ## What resources do I need?
 Most of the knowledge you'll need, will be in this guide. But in the IT world things are changing pretty fast. So make sure you educate yourself on new innovations, best practices and technologies. Make sure to check out our resources.md file where you will find some interesting guides, books and even more additional information.
@@ -130,7 +131,7 @@ when you press Enter in your editor. To add a new line, we use the
 <br>
 ```
 
-tag. **N.B!**The br tag has only an opening tag!! 
+tag. **N.B! The br tag has only an opening tag!! (this kind of tags are known as self-closing)** <br>
 You can also write
 
 ``` html 
@@ -272,7 +273,7 @@ Now let's learn about links. For exammple, you want when a user clicks on a text
 <a href = "link_address_here"> The text the user should click here </a>
 ```
 
-But have you noticed how some links open in the same tab and others for example open in a new tab. This is done with **the target attribute**.
+But have you noticed how some links open in the same tab and others for example open in a new tab? This is done with **the target attribute**.
 The target attribute specifies where to open the linked document and it can have one of the following values:
 <blockquote>
 _blank - Opens the linked document in a new window or tab <br>
