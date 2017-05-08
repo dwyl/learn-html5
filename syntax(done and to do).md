@@ -13,22 +13,10 @@
 
 ## TO DO:
 <ul> 
-
-<li> Create full syntax for HTML5
+<li> Create full syntax for HTML5 <a href = "https://github.com/dwyl/learn-html5/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted"> 
+(issues on the basic stuff that has to be added) </a> <br>
 <li> Add few sections about styling and scripts
 <li> Talk about WWW, Domains, How the internet works, etc 
 <li> Differences between HTML and HTML5
 <li> Bootstrap
 </ul>
-
-## Syntax TO DO:
-<ul>
-
-<li> div and span
-<li> classes
-<li> buttons
-<li> responsive layouts, bootstrap
-<li> forms
-<li> POST and GET
-<li> footer, header, nav, section, aside, article
-<li> Videos
