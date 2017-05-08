@@ -3,9 +3,6 @@
 <a href ="http://www.simplehtmlguide.com/cheatsheet.php"> HTML Cheatsheet </a> <br>
 <a href = "https://www.w3schools.com/html/default.asp">  W3School </a><br>
 <a href = "https://code.tutsplus.com/tutorials/30-html-best-practices-for-beginners--net-4957"> Best practices </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
 
 # Styling 
 <a href = "https://www.w3schools.com/css/"> W3School CSS tutorials </a> <br>
@@ -18,8 +15,7 @@
 
 # Books
 <a href = "http://www.htmlandcssbook.com"> HTML and CSS book</a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
+
 
 # Articles
 <a href ="https://medium.com/wd-tips-tricks/essential-html-css-and-javascript-tools-and-libraries-bbd39b4ed7a"> Essential libraries</a> <br>
@@ -40,19 +36,4 @@
 # Project ideas
 
 <a href = "https://medium.freecodecamp.com/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08"> Quotes generator (HTML + JS)</a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
-<a href = ""> </a> <br>
+
