@@ -2,7 +2,7 @@
 Learn how to use HTML5 (from scratch) to build websites/web applications! No previous knowledge needed.
 
 ## Some history
-In 1989, Tim Berners-Lee(working at CERN then), wrote a memo proposing an Internet-based hypertext system where researchers can share documents. The browser and server software for this was created in the late 90's and later became known as the World Wide Web. The WWW was functioning using a langiage that Berners-Lee wrote - HTML.
+In 1989, Tim Berners-Lee(working at CERN then), wrote a memo proposing an Internet-based hypertext system where researchers can share documents. The browser and server software for this was created in the late 90's and later became known as the World Wide Web. The WWW was functioning using a language that Berners-Lee wrote - HTML.
 
 ## What is HTML?
 HTML (short for **H**yper**T**ext **M**arkup **L**anguage) is basically 
