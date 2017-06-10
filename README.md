@@ -345,3 +345,26 @@ HTML has tables too and they are quite easy to use.
 An HTML table is defined with the table tag.
 Each table row is defined with the tr tag. A table header is defined with the <th> tag. 
 By default, table headings are bold and centered. A table data/cell is defined with the td tag.
+
+## Div Element
+
+The <div> element belongs to the block-level group, often used as a container for other HTML elements.
+The <div> element has no required attributes, but both style and class are common.
+When used together with CSS, it can be used to style blocks of content:
+
+``` html
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>Lisbon</h2>
+  <p>Lisbon is the capital city of Portugal. It is one of the most populous city, 26.7% of the total population of Portugal lives in the Lisbon Metropolitan Area.</p>
+  
+</div>
+```
+
+## Span Element 
+
+The <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. 
+The <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline element.
+
+```html
+<h1>My super <span style="color:red">Important</span> Heading</h1>
+```
