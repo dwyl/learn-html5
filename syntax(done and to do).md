@@ -10,6 +10,10 @@
 <li> Links
 <li> Lists
 <li> tables
+<li> Div
+<li> Span
+
+</ul>
 
 ## TO DO:
 <ul> 
