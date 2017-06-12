@@ -348,23 +348,85 @@ By default, table headings are bold and centered. A table data/cell is defined w
 
 ## Div Element
 
-The <div> element belongs to the block-level group, often used as a container for other HTML elements.
-The <div> element has no required attributes, but both style and class are common.
+The div element belongs to the block-level group, often used as a container for other HTML elements.
+The div element has no required attributes, but both style and class are common.
 When used together with CSS, it can be used to style blocks of content:
 
 ``` html
 <div style="background-color:black;color:white;padding:20px;">
   <h2>Lisbon</h2>
-  <p>Lisbon is the capital city of Portugal. It is one of the most populous city, 26.7% of the total population of Portugal lives in the Lisbon Metropolitan Area.</p>
-  
+  <p>Lisbon is the capital city of Portugal.
+  26.7% of the total population of Portugal lives in the Lisbon Metropolitan Area.</p>  
 </div>
 ```
 
 ## Span Element 
 
-The <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. 
-The <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline element.
+The span element is a generic inline container for phrasing content, which does not inherently represent anything. 
+It can be used to group elements for styling purposes (using the class or id attributes),
+or because they share attribute values, such as lang. 
+The span is very much like a div element, but div is a block-level element whereas a span is an inline element.
 
 ```html
 <h1>My super <span style="color:red">Important</span> Heading</h1>
+```
+## Classes 
+
+Using the html class attribute makes it possible to define equal styles,
+for elements with the same class name.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+} 
+</style>
+</head>
+<body>
+
+<div class="cities">
+<h2>London</h2>
+<p>London is the capital of England.</p>
+</div>
+
+<div class="cities">
+<h2>Kingston</h2>
+<p>Kingston is the capital city of Jamaica.</p>
+</div>
+
+<div class="cities">
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.</p>
+</div>
+
+</body>
+</html>
+``` 
+The class attribute can also be used for inline elements,
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span.note {
+    font-size: 110%;
+    color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>My Ultra <span class="note">Important</span> Heading</h1>
+<p>This is some random but <span class="note">important</span> text.</p>
+
+</body>
+</html>
 ```
