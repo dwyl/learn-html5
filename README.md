@@ -368,3 +368,47 @@ The <span> is very much like a <div> element, but <div> is a block-level element
 ```html
 <h1>My super <span style="color:red">Important</span> Heading</h1>
 ```
+
+## Buttons
+
+The button tag defines a clickable button.
+Inside a button element you can put content, like text or images.
+This is the difference between this element and buttons created with the input element.
+```html
+<a class="btn btn-default" href="#" role="button">Link</a>
+<button class="btn btn-default" type="submit">Button</button>
+<input class="btn btn-default" type="button" value="Input">
+<input class="btn btn-default" type="submit" value="Submit">
+```
+*Tip*: Always specify the type attribute for a button element. Different browsers use different default types for the button element.
+
+_Sizes_
+
+Do you prefer larger or smaller buttons? Add .btn-lg, .btn-sm, or .btn-xs for additional sizes.
+
+```html
+<p>
+  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+  <button type="button" class="btn btn-default btn-lg">Large button</button>
+</p>
+<p>
+  <button type="button" class="btn btn-primary">Default button</button>
+  <button type="button" class="btn btn-default">Default button</button>
+</p>
+<p>
+  <button type="button" class="btn btn-primary btn-sm">Small button</button>
+  <button type="button" class="btn btn-default btn-sm">Small button</button>
+</p>
+<p>
+  <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+  <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+</p>
+```
+
+Disabled state: Make buttons look unclickable by fading them back with opacity.
+```html
+<button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
+
+
+
+
