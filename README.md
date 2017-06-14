@@ -346,25 +346,109 @@ An HTML table is defined with the table tag.
 Each table row is defined with the tr tag. A table header is defined with the <th> tag. 
 By default, table headings are bold and centered. A table data/cell is defined with the td tag.
 
-## Div Element
+## Block and Inline Element´s
+For us to unsderstand the div and span element´s we must know this: 
+Every HTML element has a default display value depending on what type of element it is.
+The default display value for most elements is _block_ or _inline_.
 
-The <div> element belongs to the block-level group, often used as a container for other HTML elements.
-The <div> element has no required attributes, but both style and class are common.
-When used together with CSS, it can be used to style blocks of content:
+_Block-level Element_
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+```html
+<p>The paragraph is a block-level element.<p>
+```
+Examples of block-level elements:
+<div>
+<h1> - <h6>
+<p>
+<form>
+
+_Inline Element_
+An inline element occupies only the space bounded by the tags that define the inline element. 
+Generally, inline elements may contain only data and other inline elements.
+The following example demonstrates the inline element's influence:
+```html
+<p>This <span>span</span> is an inline element</p>
+```
+
+## Div Element
+The div element belongs to the block-level group, often used as a container for other HTML elements.
+The div element has no required attributes, but both style and class are common.
+When used together with CSS, the div element can be used to style blocks of content,
+as we can see in the example below:
 
 ``` html
 <div style="background-color:black;color:white;padding:20px;">
   <h2>Lisbon</h2>
-  <p>Lisbon is the capital city of Portugal. It is one of the most populous city, 26.7% of the total population of Portugal lives in the Lisbon Metropolitan Area.</p>
-  
+  <p>Lisbon is the capital city of Portugal.
+  26.7% of the total population of Portugal lives in the Lisbon Metropolitan Area.</p>  
 </div>
 ```
 
 ## Span Element 
-
-The <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. 
-The <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline element.
+The span element is a generic inline container for phrasing content, which does not inherently represent anything. 
+It can be used to group elements for styling purposes (using the class or id attributes),
+or because they share attribute values, such as lang. 
+The span is very much like a div element, but div is a block-level element whereas a span is an inline element.
 
 ```html
 <h1>My super <span style="color:red">Important</span> Heading</h1>
+```
+## Classes 
+Using the html class attribute makes it possible to define equal styles,
+for elements with the same class name.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+} 
+</style>
+</head>
+<body>
+
+<div class="cities">
+<h2>London</h2>
+<p>London is the capital of England.</p>
+</div>
+
+<div class="cities">
+<h2>Kingston</h2>
+<p>Kingston is the capital city of Jamaica.</p>
+</div>
+
+<div class="cities">
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.</p>
+</div>
+
+</body>
+</html>
+``` 
+The html class attribute can also be used for inline elements:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span.note {
+    font-size: 110%;
+    color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>My Ultra <span class="note">Important</span> Heading</h1>
+<p>This is some random but <span class="note">important</span> text.</p>
+
+</body>
+</html>
 ```
