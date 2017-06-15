@@ -12,6 +12,8 @@
 <li> tables </li>
 <li> Div </li>
 <li> Span </li>
+<li> Classes </li>
+<li> buttons </li>
 
 </ul>
 
