@@ -351,18 +351,18 @@ For us to unsderstand the div and span element´s we must know this:
 Every HTML element has a default display value depending on what type of element it is.
 The default display value for most elements is _block_ or _inline_.
 
-_Block-level Element_
+## Block-level Element
 A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
 ```html
 <p>The paragraph is a block-level element.<p>
 ```
 Examples of block-level elements:
-<div>
-<h1> - <h6>
-<p>
-<form>
+div
+h1 - h6
+p
+form
 
-_Inline Element_
+## Inline Element
 An inline element occupies only the space bounded by the tags that define the inline element. 
 Generally, inline elements may contain only data and other inline elements.
 The following example demonstrates the inline element's influence:
@@ -393,6 +393,7 @@ The span is very much like a div element, but div is a block-level element where
 ```html
 <h1>My super <span style="color:red">Important</span> Heading</h1>
 ```
+
 ## Classes 
 Using the html class attribute makes it possible to define equal styles,
 for elements with the same class name.
@@ -452,3 +453,90 @@ span.note {
 </body>
 </html>
 ```
+
+## Buttons
+The button tag defines a clickable button.
+```html
+<button type="button">Click Please</button>
+```
+These buttons work and behave in exactly the same way as our counterparts above. 
+In addition to submitting the form, you can make them disabled, add an accesskey or even specify a tabindex.
+The coolest thing about the <button> tag is that you can put useful HTML elements inside them, like images:
+```html
+<button type="submit"><img src="" alt="" /> Submit</button>
+```
+"Buttons created with the BUTTON element function just like buttons created with the INPUT element,
+but they offer richer rendering possibilities: the BUTTON tag may have content.
+For example:
+a BUTTON element that contains an image functions like and may resemble an INPUT element whose type is set to “image”,
+but the BUTTON element type allows content." W3
+```html
+<div class="buttons">
+    <button type="submit" class="positive">
+        <img src="/images/icons/tick.png" alt=""/> 
+        Save
+    </button>    <a href="/password/reset/">
+        <img src="/images/icons/textfield_key.png" alt=""/> 
+        Change Password
+    </a>    <a href="#" class="negative">
+        <img src="/images/icons/cross.png" alt=""/>
+        Cancel
+    </a>
+</div>
+```
+*Tip*: Always specify the type attribute for a button element. 
+Different browsers use different default types for the button element.
+
+## Styles and Sizes (With Bootstrap)
+Great Work!
+As we know, this is where we would start using only CSS to style and size our buttons..? No! 
+We are introducing you to Bootstrap (the most popular HTML, CSS, and JavaScript framework for developing responsive,
+mobile-first web sites) because it´s an easier way to get the job done!
+
+Do you prefer larger or smaller buttons? 
+Add .btn-lg (large), .btn-md(medium), .btn-sm(small), or .btn-xs(extra-small) for additional sizes.
+
+```html
+<button type="button" class="btn btn-primary btn-lg">Large</button>
+<button type="button" class="btn btn-primary btn-md">Medium</button>
+<button type="button" class="btn btn-primary btn-sm">Small</button>
+<button type="button" class="btn btn-primary btn-xs">XSmall</button>
+```
+Create block level buttons—those that span the full width of a parent—by adding *.btn-block*:
+```html
+<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+```
+
+After you decide the size of your buttons it´s time to style them!
+Bootstrap provides different styles of buttons:
+
+Basic Default Primary Success Info Warning Danger Link
+
+```html
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Primary</button>
+<!-- Secondary, outline button -->
+<button type="button" class="btn btn-secondary">Secondary</button>
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Success</button>
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Warning</button>
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Link</button>
+```
+Outline buttons
+Replace the default modifier classes with the *.btn-outline-* ones to remove all background images and colors on any button.
+```html
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+```
+
+
