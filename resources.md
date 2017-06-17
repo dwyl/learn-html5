@@ -10,7 +10,7 @@
 <a href = "https://getbootstrap.com"> Bootstrap website </a> <br>
 <a href = "https://validator.w3.org/#validate_by_uri+with_options"> Online validator </a> <br>
 <a href = "https://stackoverflow.com/questions/8726843/should-i-be-using-absolute-font-sizes-small-medium-large-et-al"> Font sizes - SO </a> <br>
-
+<a href = "https://css-tricks.com"> CSS tricks website </a> <br>
 
 
 # Books
@@ -33,7 +33,9 @@
 <a href = "https://medium.com/dev-rocket/components-the-future-of-html-development-f692b5b6e22b"> The future of web development</a> <br>
 <a href = "https://medium.com/sam-dutton/high-performance-html-d40262388f29"> High performance HTML</a> <br>
 <a href = "https://medium.com/@janusboye/we-wanted-cat-videos-so-we-got-html5-4be1f93257d2"> We wanted cat videos so we got HTML5 </a> <br>
+<a href = "https://www.webpagefx.com/blog/web-design/20-html-best-practices-you-should-follow/"> Brest practices - HTML </a> <br>
+<a href = "https://github.com/hail2u/html-best-practices"> HTML good practice GitHub repository </a> <br>
 # Project ideas
 
 <a href = "https://medium.freecodecamp.com/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08"> Quotes generator (HTML + JS)</a> <br>
-
+<a href = "https://www.quora.com/What-are-some-good-HTML-projects-for-beginning-programmers"> Quora topic for ideas </a> <br>
