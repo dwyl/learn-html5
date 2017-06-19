@@ -13,20 +13,15 @@
 <a href = "https://css-tricks.com"> CSS tricks website </a> <br>
 
 # Infographics
-<a href = "http://www.skilledup.com/articles/life-front-end-web-developer-infographic"> The life of a front end developer </a> 
-
-<a href = "http://www.dotcominfoway.com/blog/dot-com-infoway-releases-html5-infographic"> HTML5: Past, Present, Future </a> 
-
-<a href = "https://visual.ly/community/infographic/technology/wtf-html5-and-why-should-we-all-care"> WTF is HTML5 and Why Should We All Care </a> 
-
-<a href = "https://visual.ly/community/infographic/technology/html5-why-developers-need-it"> HTML5: Why Developers Need It! </a> 
-
-<a href = "http://www.onemorelevel.com/html-5-vs-flash-games/"> HTML5 vs Flash </a>
+<a href = "http://www.skilledup.com/articles/life-front-end-web-developer-infographic"> The life of a front end developer </a> <br>
+<a href = "http://www.dotcominfoway.com/blog/dot-com-infoway-releases-html5-infographic"> HTML5: Past, Present, Future </a>  <br>
+<a href = "https://visual.ly/community/infographic/technology/wtf-html5-and-why-should-we-all-care"> WTF is HTML5 and Why Should We All Care </a>  <br>
+<a href = "https://visual.ly/community/infographic/technology/html5-why-developers-need-it"> HTML5: Why Developers Need It! </a>  <br>
+<a href = "http://www.onemorelevel.com/html-5-vs-flash-games/"> HTML5 vs Flash </a> <br>
 <a href = "http://www.htmlgoodies.com/html5/the-wonderful-world-of-html5.html#fbid=efuC3Ux-9h3"> The wonderful world of 
-HTML </a>
-
+HTML </a> <br>
 <a href = "https://visual.ly/community/infographic/technology/current-state-html5"> The current state of HTML </a>
-
+ <br>
 # Books
 <a href = "http://www.htmlandcssbook.com"> HTML and CSS book</a> <br>
 
