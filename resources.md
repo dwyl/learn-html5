@@ -12,6 +12,14 @@
 <a href = "https://stackoverflow.com/questions/8726843/should-i-be-using-absolute-font-sizes-small-medium-large-et-al"> Font sizes - SO </a> <br>
 <a href = "https://css-tricks.com"> CSS tricks website </a> <br>
 
+# Infographics
+<a href = "http://www.skilledup.com/articles/life-front-end-web-developer-infographic"> The life of a front end developer </a> <br>
+
+<a href = "http://www.dotcominfoway.com/blog/dot-com-infoway-releases-html5-infographic"> HTML5: Past, Present, Future </a> <br>
+
+<a href = "https://visual.ly/community/infographic/technology/wtf-html5-and-why-should-we-all-care"> WTF is HTML5 and Why Should We All Care </a> <br>
+
+<a href = "https://visual.ly/community/infographic/technology/html5-why-developers-need-it"> HTML5: Why Developers Need It! </a> <br>
 
 # Books
 <a href = "http://www.htmlandcssbook.com"> HTML and CSS book</a> <br>
@@ -35,6 +43,9 @@
 <a href = "https://medium.com/@janusboye/we-wanted-cat-videos-so-we-got-html5-4be1f93257d2"> We wanted cat videos so we got HTML5 </a> <br>
 <a href = "https://www.webpagefx.com/blog/web-design/20-html-best-practices-you-should-follow/"> Brest practices - HTML </a> <br>
 <a href = "https://github.com/hail2u/html-best-practices"> HTML good practice GitHub repository </a> <br>
+<a href = "http://www.skilledup.com/articles/free-beginner-html-tutorials"> Beginner tutorials </a> <br>
+<a href = "http://www.skilledup.com/articles/whats-in-your-web-development-toolkit-launch-academy"> What's in your web development toolki? </a> <br>
+
 # Project ideas
 
 <a href = "https://medium.freecodecamp.com/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08"> Quotes generator (HTML + JS)</a> <br>
