@@ -24,7 +24,7 @@ HTML </a> <br>
  <br>
 # Books
 <a href = "http://www.htmlandcssbook.com"> HTML and CSS book</a> <br>
-
+<a href = "https://www.amazon.com/Truth-About-HTML5-Web-Designers/dp/1479158569/"> The Truth about HTML5 </a> <br>
 
 # Articles
 <a href ="https://medium.com/wd-tips-tricks/essential-html-css-and-javascript-tools-and-libraries-bbd39b4ed7a"> Essential libraries</a> <br>
@@ -51,3 +51,5 @@ HTML </a> <br>
 
 <a href = "https://medium.freecodecamp.com/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08"> Quotes generator (HTML + JS)</a> <br>
 <a href = "https://www.quora.com/What-are-some-good-HTML-projects-for-beginning-programmers"> Quora topic for ideas </a> <br>
+<a href = "https://www.codecademy.com/en/tracks/projects"> Codeacademy practice </a> <br>
+<a href = "http://1000projects.org/mini-projects-for-cse-using-html.html"> Mini porjects </a> <br>
