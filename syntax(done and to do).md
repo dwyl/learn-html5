@@ -1,22 +1,28 @@
 ## Included Syntax
 <ul> 
-<li>  Paragraph 
-<li>  New line
-<li> Horizontal line
-<li> Comments
-<li> Simple text formatting tags
-<li> Headings
-<li> Images
-<li> Links
-<li> Lists
-<li> tables
+<li>  Paragraph </li>
+<li>  New line </li>
+<li> Horizontal line </li>
+<li> Comments </li>
+<li> Simple text formatting tags </li>
+<li> Headings </li>
+<li> Images </li>
+<li> Links </li>
+<li> Lists </li>
+<li> tables </li>
+<li> Div </li>
+<li> Span </li>
+<li> Classes </li>
+<li> buttons </li>
+
+</ul>
 
 ## TO DO:
 <ul> 
-<li> Create full syntax for HTML5 <a href = "https://github.com/dwyl/learn-html5/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted"> 
-(issues on the basic stuff that has to be added) </a> <br>
-<li> Add few sections about styling and scripts
-<li> Talk about WWW, Domains, How the internet works, etc 
-<li> Differences between HTML and HTML5
-<li> Bootstrap
+<li> Create full syntax for HTML5 
+<a href = "https://github.com/dwyl/learn-html5/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted"> (issues on the basic stuff that has to be added) </a> <br> </li>
+<li> Add few sections about styling and scripts </li>
+<li> Talk about WWW, Domains, How the internet works, etc </li> 
+<li> Differences between HTML and HTML5 </li>
+<li> Bootstrap </li>
 </ul>
