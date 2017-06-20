@@ -12,10 +12,19 @@
 <a href = "https://stackoverflow.com/questions/8726843/should-i-be-using-absolute-font-sizes-small-medium-large-et-al"> Font sizes - SO </a> <br>
 <a href = "https://css-tricks.com"> CSS tricks website </a> <br>
 
-
+# Infographics
+<a href = "http://www.skilledup.com/articles/life-front-end-web-developer-infographic"> The life of a front end developer </a> <br>
+<a href = "http://www.dotcominfoway.com/blog/dot-com-infoway-releases-html5-infographic"> HTML5: Past, Present, Future </a>  <br>
+<a href = "https://visual.ly/community/infographic/technology/wtf-html5-and-why-should-we-all-care"> WTF is HTML5 and Why Should We All Care </a>  <br>
+<a href = "https://visual.ly/community/infographic/technology/html5-why-developers-need-it"> HTML5: Why Developers Need It! </a>  <br>
+<a href = "http://www.onemorelevel.com/html-5-vs-flash-games/"> HTML5 vs Flash </a> <br>
+<a href = "http://www.htmlgoodies.com/html5/the-wonderful-world-of-html5.html#fbid=efuC3Ux-9h3"> The wonderful world of 
+HTML </a> <br>
+<a href = "https://visual.ly/community/infographic/technology/current-state-html5"> The current state of HTML </a>
+ <br>
 # Books
 <a href = "http://www.htmlandcssbook.com"> HTML and CSS book</a> <br>
-
+<a href = "https://www.amazon.com/Truth-About-HTML5-Web-Designers/dp/1479158569/"> The Truth about HTML5 </a> <br>
 
 # Articles
 <a href ="https://medium.com/wd-tips-tricks/essential-html-css-and-javascript-tools-and-libraries-bbd39b4ed7a"> Essential libraries</a> <br>
@@ -35,7 +44,12 @@
 <a href = "https://medium.com/@janusboye/we-wanted-cat-videos-so-we-got-html5-4be1f93257d2"> We wanted cat videos so we got HTML5 </a> <br>
 <a href = "https://www.webpagefx.com/blog/web-design/20-html-best-practices-you-should-follow/"> Brest practices - HTML </a> <br>
 <a href = "https://github.com/hail2u/html-best-practices"> HTML good practice GitHub repository </a> <br>
+<a href = "http://www.skilledup.com/articles/free-beginner-html-tutorials"> Beginner tutorials </a> <br>
+<a href = "http://www.skilledup.com/articles/whats-in-your-web-development-toolkit-launch-academy"> What's in your web development toolki? </a> <br>
+
 # Project ideas
 
 <a href = "https://medium.freecodecamp.com/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08"> Quotes generator (HTML + JS)</a> <br>
 <a href = "https://www.quora.com/What-are-some-good-HTML-projects-for-beginning-programmers"> Quora topic for ideas </a> <br>
+<a href = "https://www.codecademy.com/en/tracks/projects"> Codeacademy practice </a> <br>
+<a href = "http://1000projects.org/mini-projects-for-cse-using-html.html"> Mini porjects </a> <br>
