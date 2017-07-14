@@ -44,8 +44,8 @@ Every html starts with the tag
 <!DOCTYPE html>
 ``` 
 This way the browser recognizes that this is a valid .html file.
-You're probably wondering what a tag is.
-<blockquote>A tag is 
+You're probably wondering what a tag is.    <br>
+A tag is 
 
 ``` html
 <something here inside>
@@ -68,7 +68,7 @@ doesn't have a closing tag and neither does
 ``` html 
 <br>
 ```
-Br is the tag for new line.  </blockquote>
+Br is the tag for new line.  
 
 After that our html has 
 
@@ -465,11 +465,11 @@ The coolest thing about the <button> tag is that you can put useful HTML element
 ```html
 <button type="submit"><img src="" alt="" /> Submit</button>
 ```
-"Buttons created with the BUTTON element function just like buttons created with the INPUT element,
-but they offer richer rendering possibilities: the BUTTON tag may have content.
+"Buttons created with the  **BUTTON** element function just like buttons created with the **INPUT** element,
+but they offer richer rendering possibilities: the **BUTTON** tag may have content.
 For example:
-a BUTTON element that contains an image functions like and may resemble an INPUT element whose type is set to “image”,
-but the BUTTON element type allows content." W3
+a  **BUTTON** element that contains an image functions like and may resemble an **INPUT** element whose type is set to “image”,
+but the  **BUTTON** element type allows content." W3
 ```html
 <div class="buttons">
     <button type="submit" class="positive">
@@ -493,7 +493,7 @@ As we know, this is where we would start using only CSS to style and size our bu
 We are introducing you to Bootstrap (the most popular HTML, CSS, and JavaScript framework for developing responsive,
 mobile-first web sites) because it´s an easier way to get the job done!
 
-Do you prefer larger or smaller buttons? 
+### Do you prefer larger or smaller buttons? 
 Add .btn-lg (large), .btn-md(medium), .btn-sm(small), or .btn-xs(extra-small) for additional sizes.
 
 ```html
@@ -502,7 +502,8 @@ Add .btn-lg (large), .btn-md(medium), .btn-sm(small), or .btn-xs(extra-small) fo
 <button type="button" class="btn btn-primary btn-sm">Small</button>
 <button type="button" class="btn btn-primary btn-xs">XSmall</button>
 ```
-Create block level buttons—those that span the full width of a parent—by adding *.btn-block*:
+Create block level buttons — those that span the full width of a parent—by adding *.btn-block*:
+
 ```html
 <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
 ```
@@ -510,7 +511,14 @@ Create block level buttons—those that span the full width of a parent—by add
 After you decide the size of your buttons it´s time to style them!
 Bootstrap provides different styles of buttons:
 
-Basic Default Primary Success Info Warning Danger Link
++ Basic 
++ Default 
++ Primary
++ Success 
++ Info 
++ Warning
++ Danger
++ Link
 
 ```html
 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
@@ -528,7 +536,7 @@ Basic Default Primary Success Info Warning Danger Link
 <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
 <button type="button" class="btn btn-link">Link</button>
 ```
-Outline buttons
+### Outline buttons
 Replace the default modifier classes with the *.btn-outline-* ones to remove all background images and colors on any button.
 ```html
 <button type="button" class="btn btn-outline-primary">Primary</button>
