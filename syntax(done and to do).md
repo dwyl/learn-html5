@@ -6,6 +6,11 @@
 <li> Comments </li>
 <li> Simple text formatting tags </li>
 <li> Headings </li>
+  <li>Title</li>
+  <li>Style</li>
+  <li>Background</li>
+  <li>Fonts</li>
+  <li>Form</li>
 <li> Images </li>
 <li> Links </li>
 <li> Lists </li>
