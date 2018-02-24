@@ -29,5 +29,6 @@
 <li> Add few sections about styling and scripts </li>
 <li> Talk about WWW, Domains, How the internet works, etc </li> 
 <li> Differences between HTML and HTML5 </li>
+<li>CSS</li>
 <li> Bootstrap </li>
 </ul>
