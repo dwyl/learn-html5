@@ -6,6 +6,11 @@
 <li> Comments </li>
 <li> Simple text formatting tags </li>
 <li> Headings </li>
+  <li>Title</li>
+  <li>Fonts</li>
+  <li>Forms</li>
+  <li>Styles</li>
+  <li>Background</li>
 <li> Images </li>
 <li> Links </li>
 <li> Lists </li>
@@ -24,5 +29,6 @@
 <li> Add few sections about styling and scripts </li>
 <li> Talk about WWW, Domains, How the internet works, etc </li> 
 <li> Differences between HTML and HTML5 </li>
+<li>CSS</li>
 <li> Bootstrap </li>
 </ul>

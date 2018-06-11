@@ -2,7 +2,11 @@
 
 <a href ="http://www.simplehtmlguide.com/cheatsheet.php"> HTML Cheatsheet </a> <br>
 <a href = "https://www.w3schools.com/html/default.asp">  W3School </a><br>
+<a href="https://www.codecademy.com/" >Codecademy</a><br/>
+<a href="https://www.lynda.com/in/general2?cid=l0:en:af:le:prosb:s0:0:ind:cj:8186514&utm_medium=affiliate&utm_source=CJ&utm_content=11926&utm_campaign=CD17318&bid=11926&AID=CD17318&AIDCJ=12308797&PIDCJ=8186514&SIDCJ=68756X1554901Xecb34038243de6468803ac768d6708fc&subid1=8186514/">Lynda</a><br/>
 <a href = "https://code.tutsplus.com/tutorials/30-html-best-practices-for-beginners--net-4957"> Best practices </a> <br>
+<a href="https://www.codeschool.com/users/sign_in">Codeschool</a><br/>
+
 <a href = "http://htmldog.com"> HTML Dog - HTML, CSS, JS </a> <br>
 # Styling 
 <a href = "https://www.w3schools.com/css/"> W3School CSS tutorials </a> <br>
@@ -25,6 +29,7 @@ HTML </a> <br>
 # Books
 <a href = "http://www.htmlandcssbook.com"> HTML and CSS book</a> <br>
 <a href = "https://www.amazon.com/Truth-About-HTML5-Web-Designers/dp/1479158569/"> The Truth about HTML5 </a> <br>
+<a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_sc_1?ie=UTF8&keywords=HTML+CSSS&qid=1475619527&sr=8-1-spell/">HTML and CSS: Design and Build Websites </a><br/>
 
 # Articles
 <a href ="https://medium.com/wd-tips-tricks/essential-html-css-and-javascript-tools-and-libraries-bbd39b4ed7a"> Essential libraries</a> <br>
